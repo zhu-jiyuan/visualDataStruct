@@ -25,7 +25,7 @@ def plotBar(mid):
     plt.pause(0.5)
 
 
-obj_goal = 71
+obj_goal = 97
 print(f"obj={obj_goal}")
 l = 0
 r = len(xs)-1
