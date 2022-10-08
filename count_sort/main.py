@@ -21,7 +21,7 @@ def plotBar():
     plt.gca().xaxis.set_major_locator(plt.MultipleLocator(5))
 
     plt.bar(xs,ys)
-    plt.pause(3)
+    plt.pause(0.5)
 
 ts = ys.copy()
 cnt = 0
@@ -47,8 +47,9 @@ def count_sort():
                 ys[index]=v
                 #
                 index+=1
+            plotBar()
         buckets = [[] for i in range(10)]
-        plotBar()
+        #plotBar()
 count_sort()
 
 

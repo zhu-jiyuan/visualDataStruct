@@ -1,3 +1,5 @@
 # what is this?
-this is a note.
+This is a note.<br>
+
 A visual code example.
+
